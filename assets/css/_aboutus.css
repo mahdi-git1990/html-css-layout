@@ -1,0 +1,65 @@
+ /* start aboutus section style  */
+ .section-title-aboutus span {
+  display: inline-block;
+}
+.section-title-aboutus span::before {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background-color: orange;
+  position: absolute;
+  top: 10px;
+  right: -50px;
+}
+.section-title-aboutus span::after {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background-color: orange;
+  position: absolute;
+  top: 10px;
+  right: 54px;
+}
+ .about-us-left-side{
+    background-color: #efefef;
+    padding: 60px;
+    min-height: 464px;
+    
+ }
+ .about-us-left-side h4{
+    border-bottom: 1px solid #dcdcdc ;
+    padding-bottom: 18px;
+    font-size: 20px;
+ }
+ .about-us-left-side p{
+    padding: 26px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #6b6666;
+
+ }
+ .about-us-left-side a{
+   background-color: rgb(55, 179, 179);
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    float: left;
+    margin-left: 20px;
+    font-size: 16px;
+    transition: .5s ease;
+    
+ }
+ .about-us-left-side a:hover{
+   border-radius: 0 10px 0;
+ }
+ .i2{
+  min-height: 464px;
+ }
+ @media screen and (max-width:992px) {
+  .about-us-right-side{
+    display: none;
+  }
+
+
+ }
+/* end abutus section style    */
