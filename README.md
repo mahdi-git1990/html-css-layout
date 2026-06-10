@@ -21,7 +21,8 @@ A responsive page built html - css
     - `images/`: تصاویر استفاده شده در پروژه
 
 لینک دمو:
-https://mahdi-git1990.github.io/html-css-layout/
+
+[Live Demo - صفحه اصلی](https://mahdi-git1990.github.io/html-css-layout/)
 
 ## نحوه اجرا
 فایل `index.html` را با مرورگر باز کنید.
